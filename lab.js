@@ -249,7 +249,7 @@ pixel.changePrice(650)
 //Code Here 
 
 pixel.sell(true)
-console.log(pixel)
+//console.log(pixel)
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 
@@ -307,7 +307,7 @@ let helensInfo = {
   ...shippingInfo
 }
 
-console.log(helensInfo)
+//console.log(helensInfo)
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
 
@@ -325,6 +325,16 @@ console.log(helensInfo)
 
 //Code Here 
 
+class Vehicle{
+  constructor(capacity, color, mileage){
+  this.capacity = capacity,
+  this.capacity = color,
+  this.mileage = mileage
+  }
+  move(miles){
+    this.mileage += miles
+  }
+}
 
 /*
   Create a vehicle using your new class and save it to a variable called myFirstVehicle
@@ -332,6 +342,10 @@ console.log(helensInfo)
 
 //Code Here
 
+let myFirstVehicle = new Vehicle(5, 'Silver', 10000)
+
+myFirstVehicle.move(10000)
+console.log(myFirstVehicle)
 
 /* 
   Now we'll create a class that's based off of the vehicle class. 
@@ -343,6 +357,10 @@ console.log(helensInfo)
 */
 
 //Code Here
+
+class Motorcycle{
+  constructor
+}
 
 /*
   Create a Motorcycle using your new class and save it to a variable called myFirstMotorcycle
