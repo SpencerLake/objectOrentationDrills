@@ -273,7 +273,7 @@ let colorCopy = {
   ...colors
 }
 
-console.log(colorCopy)
+//console.log(colorCopy)
 
 
 /*
@@ -302,7 +302,12 @@ const shippingInfo = {
 
 //Code Here
 
+let helensInfo = {
+  ...contactInfo,
+  ...shippingInfo
+}
 
+console.log(helensInfo)
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
 
